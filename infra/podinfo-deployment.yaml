@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: podinfod
-          image: ghcr.io/beffaco/test_kubernetes:1730821978
+          image: ghcr.io/beffaco/test_kubernetes:5.0.0 # {"$imagepolicy": "flux-system:podinfo"}
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
