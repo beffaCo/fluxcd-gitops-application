@@ -13,7 +13,7 @@ spec:
         app: podinfo
     spec:
       containers:
-        - name: podinfod
+        - name: podinfo
           image: ghcr.io/beffaco/test_kubernetes:5.0.1732471887 # {"$imagepolicy": "default:podinfo"}
           imagePullPolicy: IfNotPresent
           ports:
