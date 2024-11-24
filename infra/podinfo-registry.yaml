@@ -4,5 +4,5 @@ metadata:
   name: podinfo
   namespace: flux-system
 spec:
-  image: ghcr.io/beffaCo/test_kubernetes
+  image: ghcr.io/beffaco/test_kubernetes
   interval: 5m
