@@ -20,5 +20,5 @@ spec:
     push:
       branch: main
   update:
-    path: ./infra/my-cluster
+    path: ./infra
     strategy: Setters
