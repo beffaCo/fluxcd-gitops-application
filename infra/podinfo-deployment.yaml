@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
         - name: podinfod
-          image: ghcr.io/stefanprodan/podinfo:5.0.0
+          image: ghcr.io/beffaco/test_kubernetes:1730821978
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
-              containerPort: 9898
+              containerPort: 8888
               protocol: TCP
